@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="header-data">
+            <form action="">
+                <div class="cont">
+                    <div class="day">
+                        <h3 class="title">DAY</h3>
+                        <input type="number" id="day" placeholder="DD">
+                        <small></small>
+                    </div>
+                    <div class="month">            
+                        <h3 class="title">MONTH</h3>
+                        <input type="number" id="month" placeholder="MM">
+                        <small></small>
+                    </div>
+                    <div class="year">
+                        <h3 class="title">YEAR</h3>
+                        <input type="number" id="year" placeholder="YYYY">
+                        <small></small>
+                    </div>
+                </div>
+                <div class="submit-">
+                    <hr>
+                    <button type="submit" class="submit-btn">
+                    <img class="arrow" src="/assets/images/icon-arrow.svg" alt="icon" width="50">
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div id="calculator">
+            <div class="container-calculator">
+                <h1><span id="YY">--</span> years</h1>
+                <h1><span id="MM">--</span> months</h1>
+                <h1><span id="DD">--</span> days</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://www.linkedin.com/in/katiuci-gabriele-neis-215395238/">Gabriele</a>.
+      </div>
+</body>
+
+<script src="assets/main.js"></script>
+
+</html>
